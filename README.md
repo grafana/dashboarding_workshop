@@ -42,11 +42,13 @@ Now only you have access to your own folder and others won't be able to see your
 
 <br/><hr/>
 # Let's explore your data 
+### MySQL Datasource
 Browse to Explore mode, select the mysql-parkrun datasource.<br/>
 Play around a bit, select different tables, try to order by and so on:
 ![image](https://github.com/user-attachments/assets/6614fcd5-8a58-40e7-8633-83eb4dcb342c)
 Example output of the results table:
 ![image](https://github.com/user-attachments/assets/b0b3e6b4-8d45-42d5-8642-6d7c9e90879a)
 
-
+### Infinity Datasource
+We will also make use of the [Infinity Plugin](https://grafana.com/docs/plugins/yesoreyeram-infinity-datasource/latest/) available in Grafana. 
 
