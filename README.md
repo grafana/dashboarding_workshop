@@ -125,13 +125,9 @@ For the next bit, you need to set 3 things:<br/>
 * Supply the url `http://localhost:8080/parks`
 * use the `name` field to extract
 <br/>
-Like so:<br/>
-![image](https://github.com/user-attachments/assets/84b83343-6c07-42e5-8610-0e5965e426a9)
-![image](https://github.com/user-attachments/assets/8f4f5e2a-3b87-40c5-8ac8-49cbc05a4f94)
-![image](https://github.com/user-attachments/assets/7263545a-2fb0-4577-801a-cee05db8ce33)
-
-
-<br/><br/>
+Like so:
+![image](https://github.com/user-attachments/assets/cc4b25ab-e859-4bb2-b4b2-958246f007ec)
+  
 
 
 
