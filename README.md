@@ -86,11 +86,10 @@ You should now see a fairly average looking dashboard with a single panel on it:
 
 <br/>
 Let's save it, and then we can get to building: <br/>
-![image](https://github.com/user-attachments/assets/99979a57-24f2-41e8-b5e1-5b4eef4a1b03)
-
-<br/>
+![image](https://github.com/user-attachments/assets/0588d850-e91c-45ae-b110-2004783a5166)
+<br/><br/>
 Give it a title you will remember, and then remember to save it in the folder you created earlier!<br/>
-![image](https://github.com/user-attachments/assets/94ac23ff-bfaf-4281-96dd-12c046c6a148)
+![image](https://github.com/user-attachments/assets/3cbc90b0-60cd-426e-ad2a-9f172fe1ac73)
 <br/><br/>
 
 
