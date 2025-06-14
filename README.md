@@ -1,5 +1,5 @@
 
-- [ ] Click on Sign up
+*Click on Sign up
   
 ![image](https://github.com/user-attachments/assets/d2a6d7dd-d7ca-44ea-bf30-75ea0d01e0dd)
 
