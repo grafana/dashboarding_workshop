@@ -126,7 +126,7 @@ For the next bit, you need to set 3 things:<br/>
 * use the `name` field to extract
 <br/>
 Like so:<br/>
-![image](https://github.com/user-attachments/assets/931fa681-8374-4cc5-9f9b-4f482e7065c6)
+
 <br/><br/>
 
 
