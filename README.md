@@ -51,12 +51,20 @@ Example output of the results table:
 
 ### Infinity Datasource
 We will also make use of the [Infinity Plugin](https://grafana.com/docs/plugins/yesoreyeram-infinity-datasource/latest/) available in Grafana. <br/>
-The Infinity data source plugin allows you to query and visualize data from JSON, CSV, GraphQL, XML, and HTML endpoints. You can extract various fields/data elements from the response and then visualise as a table or graphs inside Grafana. <br/>
+The Infinity data source plugin allows you to query and visualize data from JSON, CSV, GraphQL, XML, and HTML endpoints. You can extract various fields/data elements from the response and then visualise as a table or graphs inside Grafana. <br/><br/>
 Browse to Explore mode, and select the Inifinity datasource:
 ![image](https://github.com/user-attachments/assets/f45e3059-7a83-4261-b653-2ae1622fb835)
+<br/>
 Supply the following url:
 ```
 http://localhost:8080/weather/bushy
+```
+You can also use `curl` on your commandline to pull the data locally to see the full output:
+```
+curl -s http://localhost:8080/weather/bushy
+
+and if you have python3 locally installed:
+curl -s http://localhost:8080/weather/bushy | python3 -m json.tool
 ```
 
 
