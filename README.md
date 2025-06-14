@@ -100,4 +100,20 @@ Variables allow you to create more interactive and dynamic dashboards. Instead o
 <br/>
 ![image](https://github.com/user-attachments/assets/56d48a44-d059-4ea7-9138-c9856aa46162)
 <br/>
+### Creating your template variable
+On your dashboard, hit the `Edit` button:<br/>
+![image](https://github.com/user-attachments/assets/9d6ab857-9656-4d0e-8909-421fe50a57ad)
+<br/><br/>
+Then `Settings`:<br/>
+![image](https://github.com/user-attachments/assets/62f48bb8-5b6f-43fe-bd20-e5c8815a3d62)
+<br/><br/>
+Select the `Variables` tab:<br/>
+![image](https://github.com/user-attachments/assets/4b3303a8-d882-4b2b-8106-3c781c8198dc)
+<br/><br/>
+And finally, `Add variable` to add your first:<br/>
+![image](https://github.com/user-attachments/assets/25ca6670-dd8b-4ce8-9183-8bd3d3bac8dd)
+<br/><br/>
+
+
+
 
