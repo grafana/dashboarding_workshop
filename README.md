@@ -89,8 +89,15 @@ Let's save it, and then we can get to building: <br/>
 <br/><br/>
 Give it a title you will remember, and then remember to save it in the folder you created earlier!
 ![image](https://github.com/user-attachments/assets/558ed514-fe79-422e-b8b4-f4f831ad7e11)
-
 <br/><br/>
 
+<hr/>
 
+# Template Variables
+A [variable](https://grafana.com/docs/grafana/latest/dashboards/variables/) is a placeholder for a value. You can use variables in metric queries and in panel titles. So when you change the value, using the dropdown at the top of the dashboard, your panel’s metric queries will change to reflect the new value.
+<br/><br/>
+Variables allow you to create more interactive and dynamic dashboards. Instead of hard-coding things like server, application, and sensor names in your metric queries, you can use variables in their place. Variables are displayed as dropdown lists at the top of the dashboard. These dropdowns make it easy to change the data being displayed in your dashboard.
+<br/>
+![image](https://github.com/user-attachments/assets/56d48a44-d059-4ea7-9138-c9856aa46162)
+<br/>
 
