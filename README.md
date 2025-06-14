@@ -54,17 +54,22 @@ We will also make use of the [Infinity Plugin](https://grafana.com/docs/plugins/
 The Infinity data source plugin allows you to query and visualize data from JSON, CSV, GraphQL, XML, and HTML endpoints. You can extract various fields/data elements from the response and then visualise as a table or graphs inside Grafana. <br/><br/>
 Browse to Explore mode, and select the Inifinity datasource:
 ![image](https://github.com/user-attachments/assets/f45e3059-7a83-4261-b653-2ae1622fb835)
-<br/>
+<br/><br/>
 Supply the following url:
 ```
 http://localhost:8080/weather/bushy
 ```
-You can also use `curl` on your commandline to pull the data locally to see the full output:
-```
-curl -s http://localhost:8080/weather/bushy
+And you should see: <br/>
+![image](https://github.com/user-attachments/assets/d90e2a07-2a53-4d7c-aceb-7abafa834fe8)
+<br/><br/>
+Almost there, we need to extract the `saturday_data` array and look at the data inside it. Expand the `Parsing options & Result fields` tab:
+![image](https://github.com/user-attachments/assets/61e84fcb-7f44-44de-98a6-7b388e932a95)
+Supply the value: `saturday_data`
+<br/><br/>
+And now we should see the proper tabular data:
+![image](https://github.com/user-attachments/assets/63e517e6-ef7f-4975-8f56-bbff00b73b4f)
 
-and if you have python3 locally installed:
-curl -s http://localhost:8080/weather/bushy | python3 -m json.tool
-```
+<br/><br/>
+Alright, we're making progress!
 
 
