@@ -125,12 +125,19 @@ For the next bit, you need to set 3 things:<br/>
 * Supply the url `http://localhost:8080/parks`
 * use the `name` field to extract
 <br/>
-Like so:
-![image](https://github.com/user-attachments/assets/cc4b25ab-e859-4bb2-b4b2-958246f007ec)
-  
+Like so:<br/>
 
+![image](https://github.com/user-attachments/assets/9f8e6de2-ab4a-486e-9649-589b6b8ef50e)
+<br/><br/>
+Deselect `Allow custom values`. You should now see three parkrun names:<br/>
 
+![image](https://github.com/user-attachments/assets/4a20725e-03a7-4f29-a859-eb94e1a7d82e)
+<br/><br/>
+If that looks good, then on the top right of your page, click on `Back to dashboard`:<br/>
 
+![image](https://github.com/user-attachments/assets/c89a27c8-566f-41e9-a630-5d0cbccab1e3)
+<br/><br/>
+Fabulous, you have made your first dashboard variable!<br/>
 
-
-
+![image](https://github.com/user-attachments/assets/2869417f-54e4-44d3-b48b-03dc68d705c8)
+<br/><br/>
