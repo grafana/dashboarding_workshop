@@ -114,6 +114,23 @@ And finally, `Add variable` to add your first:<br/>
 ![image](https://github.com/user-attachments/assets/25ca6670-dd8b-4ce8-9183-8bd3d3bac8dd)
 <br/><br/>
 
+Notice how you can add different types of variables, like `Query`, `Textbox`, `Constant` and so on. Use `Query` for this configuration:<br/>
+![image](https://github.com/user-attachments/assets/a58cc2f8-a0e5-4937-87cc-11a22946dadd)
+<br/><br/>
+And set the Name to `Parkrun`:<br/>
+![image](https://github.com/user-attachments/assets/68b702d3-a4fb-4089-af11-c5e6f3cea45a)
+<br/><br/>
+For the next bit, you need to set 3 things:<br/>
+* Select the `Infinity` datasource
+* Supply the url `http://localhost:8080/parks`
+* use the `name` field to extract
+<br/>
+Like so:<br/>
+![image](https://github.com/user-attachments/assets/931fa681-8374-4cc5-9f9b-4f482e7065c6)
+<br/><br/>
+
+
+
 
 
 
