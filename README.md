@@ -69,7 +69,19 @@ Supply the value: `saturday_data`
 And now we should see the proper tabular data:
 ![image](https://github.com/user-attachments/assets/63e517e6-ef7f-4975-8f56-bbff00b73b4f)
 
-<br/><br/>
 Alright, we're making progress!
+<br/><br/>
+
+# Creating our first dashboard
+We will use the current data in Explore mode, and convert that into a dashboard that we can further iterate and build on. 
+<br/><br/>
+On the top of the page, click on `Add` and then `Add to dashboard`:
+![image](https://github.com/user-attachments/assets/a9001df4-ac0e-4735-bcd2-b55270171e09)
+<br/><br/>
+Ensure `New dashboard` is selected, then click on `Open in new tab`:
+![image](https://github.com/user-attachments/assets/82401b0c-26bd-483e-8886-99d80a8889a5)
+
+
+
 
 
