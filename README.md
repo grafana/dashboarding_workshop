@@ -81,6 +81,15 @@ On the top of the page, click on `Add` and then `Add to dashboard`:
 Ensure `New dashboard` is selected, then click on `Open in new tab`:
 ![image](https://github.com/user-attachments/assets/82401b0c-26bd-483e-8886-99d80a8889a5)
 
+<br/><br/>
+You should now see a fairly average looking dashboard with a single panel on it:
+![image](https://github.com/user-attachments/assets/1ab94a5a-3fd9-43fa-82b4-579568c66ae7)
+<br/><br/>
+Let's save it, and then we can get to building:
+![image](https://github.com/user-attachments/assets/99979a57-24f2-41e8-b5e1-5b4eef4a1b03)
+<br/><br/>
+Give it a title you will remember, and then remember to save it in the folder you created earlier!
+![image](https://github.com/user-attachments/assets/94ac23ff-bfaf-4281-96dd-12c046c6a148)
 
 
 
