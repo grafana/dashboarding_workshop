@@ -141,3 +141,8 @@ Fabulous, you have made your first dashboard variable!<br/>
 
 ![image](https://github.com/user-attachments/assets/2869417f-54e4-44d3-b48b-03dc68d705c8)
 <br/><br/>
+
+If your're happy, **Save your dashboard**, top right of the page.
+<br/>
+<hr/>
+<br/>
