@@ -15,3 +15,6 @@ Let's save it, and then we can get to building: <br/>
 <br/><br/>
 Give it a title you will remember, and then remember to save it in the folder you created earlier!
 ![image](https://github.com/user-attachments/assets/558ed514-fe79-422e-b8b4-f4f831ad7e11)
+
+<br/><br/>
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
