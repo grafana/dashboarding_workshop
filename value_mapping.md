@@ -16,7 +16,7 @@ We will be adding many overrides, so start with the first one:<br/>
 ![image](https://github.com/user-attachments/assets/28443841-b20c-436d-9596-994178a4b3eb)
 
 <br/><br/>
-In almost most cases, we will want to override a specific field, but there are other ways to target what you want to change.<br/>Select `Fields with name`:<br>/
+In almost most cases, we will want to override a specific field, but there are other ways to target what you want to change.<br/>Select `Fields with name`:<br/>
 ![image](https://github.com/user-attachments/assets/bf77fd29-f46d-41ad-a905-21e58ddaebe0)
 
 <br/><br/>
@@ -35,5 +35,24 @@ Add the following "Range" mapping (and remember to remove the default mapping th
 Slowly your panel will start changing. Here we can see that instead of the temperature values, we are seeing the words Cold, Mild or Hot displayed instead:<br/>
 ![image](https://github.com/user-attachments/assets/d2e81532-a994-4ec4-af38-a4f7d10c15ea)
 
+<br/><br/>
+Add another property, `Add override property`. Don't add a field override, just the property!<br/>
+![image](https://github.com/user-attachments/assets/c0d775a3-1caf-4d52-ae32-68b3b80d2a62)
+
+<br/><br/>
+Search for `Cell type`:<br/>
+![image](https://github.com/user-attachments/assets/4c005039-c66a-4120-abeb-7f5042eeb6dd)
+
+<br/><br/>
+And then search for `Gauge`:<br/>
+![image](https://github.com/user-attachments/assets/5a660afa-40de-4e52-a4d4-aabb8d3007cb)
+
+<br/><br/>
+Select `Retro LCD` and `Value Color`:<br/>
+![image](https://github.com/user-attachments/assets/54c79e49-7d04-4161-8351-05df5a66ae31)
+
+<br/><br/>
+Once again, look at the panel updating in real time with the new visualisation options:<br/>
+![image](https://github.com/user-attachments/assets/35a9a72b-ebf7-4f98-bc22-723d660be62e)
 
 <br/><br/>
