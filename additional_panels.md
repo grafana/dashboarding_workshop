@@ -95,7 +95,7 @@ Remember to save your dashboard, and then go back to the main dashboard:<br/>
 ![image](https://github.com/user-attachments/assets/10285e6d-d79b-48a6-bbc7-302fbe488139)
 <br/><br/>
 Feel free to rearrange the panels fit nicely on your screen. For example (but you can choose any layout you want for yours!):<br/>
-![image](https://github.com/user-attachments/assets/7c848f05-134d-460d-ab7e-abfed274291b)
+![image](https://github.com/user-attachments/assets/5d7f837f-6578-49f2-8bb3-cd97560f81a3)
 <br/><br/>
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
