@@ -47,7 +47,22 @@ Fabulous, you have made your first dashboard variable!<br/>
 ![image](https://github.com/user-attachments/assets/2869417f-54e4-44d3-b48b-03dc68d705c8)
 <br/><br/>
 
-If you're happy, **Save your dashboard**, top right of the page.
+One final step, we need to edit the panel to actually use the variable so that it dynamically updates itself: <br/>
+![image](https://github.com/user-attachments/assets/38c23761-0bfe-4ae5-9639-2b77518a0158)
+<br/><br/>
 
+Change the title of the panel to use the variable: `Parkrun data for $Parkrun`:<br/>
+![image](https://github.com/user-attachments/assets/dcb82af6-051b-49f5-93a2-bf66b9bfb7a2)
+<br/><br/>
+
+And also update the URL you used earlier, to use the variable now: `http://localhost:8080/weather/$Parkrun`: <br/>
+![image](https://github.com/user-attachments/assets/d96938ec-55f7-4cdd-90be-bf34abdb6e4f)
+<br/><br/>
+If that looks good, then on the top right of your page, click on `Back to dashboard`:<br/>
+![image](https://github.com/user-attachments/assets/c89a27c8-566f-41e9-a630-5d0cbccab1e3)
+<br/><br/>
+Notice how when you change the selection of the variable, that the panel updates with new data for that location. It updates dynamically!
+<br/><br/>
+If you're happy, **Save your dashboard**, top right of the page.
 <br/><br/>
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
