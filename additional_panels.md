@@ -1,4 +1,5 @@
 # Let's add a few more panels
+### Geomap / Worldmap
 
 Click to add a new Panel, then select the `Visualization` option:<br/>
 ![image](https://github.com/user-attachments/assets/301fd9ec-87f8-48ce-86b7-5370a8e3ba62)
@@ -43,5 +44,8 @@ If you zoom in the worldmap a bit, you should be able to see the three locations
 ![image](https://github.com/user-attachments/assets/dc810c83-9e44-4b38-a6a7-d6dcde73b943)
 
 <br/>
+<hr/>
+### Timeseries Panel
+
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
