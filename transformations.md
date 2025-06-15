@@ -5,3 +5,6 @@
 - Perform mathematical operations across queries
 - Use the output of one transformation as the input to another transformation
 <br/><br/>
+
+<br/><br/>
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
