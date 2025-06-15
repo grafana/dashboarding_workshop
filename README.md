@@ -7,3 +7,4 @@
 - [Value Mappings and Overrides](https://github.com/grafana/dashboarding_workshop/blob/main/value_mapping.md)
 - [Building Additional Panels](https://github.com/grafana/dashboarding_workshop/blob/main/additional_panels.md)
 - [Annotations](https://github.com/grafana/dashboarding_workshop/blob/main/annotations.md)
+- [SQL Expressions](https://github.com/grafana/dashboarding_workshop/blob/main/sql_expressions.md)
