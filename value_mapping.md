@@ -80,4 +80,7 @@ As a hint, use the following value mappings:<br/>
 And finally, your panel should look like this:<br/>
 ![image](https://github.com/user-attachments/assets/8492a261-7bee-453b-8371-32dee787fd7f)
 
+<br/><br/>
+Remember to save as well!<br/>
+![image](https://github.com/user-attachments/assets/50239759-1136-455f-aca0-3110ee73c452)
 
