@@ -49,3 +49,5 @@ Fabulous, you have made your first dashboard variable!<br/>
 
 If you're happy, **Save your dashboard**, top right of the page.
 
+<br/><br/>
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
