@@ -89,13 +89,13 @@ Set the following options:
 ![image](https://github.com/user-attachments/assets/b8e1414e-39a0-43a5-97e0-6684ce4c0c69)
 <br/><br/>
 By now, your panel show resemble something like this:<br/>
-![image](https://github.com/user-attachments/assets/d542b03c-9ba2-4124-a0b5-53199d5ddeef)
+![image](https://github.com/user-attachments/assets/b7095915-83ef-48ed-9995-eccb3426fed3)
 <br/><br/>
 Remember to save your dashboard, and then go back to the main dashboard:<br/>
 ![image](https://github.com/user-attachments/assets/10285e6d-d79b-48a6-bbc7-302fbe488139)
 <br/><br/>
 Feel free to rearrange the panels fit nicely on your screen. For example (but you can choose any layout you want for yours!):<br/>
-![image](https://github.com/user-attachments/assets/2f1d08d7-813c-421d-a508-9a07af8fc8c7)
+![image](https://github.com/user-attachments/assets/7c848f05-134d-460d-ab7e-abfed274291b)
 <br/><br/>
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
