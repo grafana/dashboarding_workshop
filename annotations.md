@@ -60,6 +60,4 @@ Go back to your dashboard, and remember to save!<br/>
 And now you will automatically pull in three annotations from the database into your panel:<br/>
 ![image](https://github.com/user-attachments/assets/dbd601df-aded-4df0-bc33-dbcb463bb37f)
 <br/><br/>
-
-
-
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
