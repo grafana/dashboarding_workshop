@@ -27,3 +27,6 @@ And now we should see the proper tabular data:<br/>
 ![image](https://github.com/user-attachments/assets/63e517e6-ef7f-4975-8f56-bbff00b73b4f)
 
 Alright, we're making progress!
+
+<br/><br/>
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
