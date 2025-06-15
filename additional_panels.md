@@ -76,6 +76,21 @@ But we want this to look better, so let's look at some suggestions and pick the 
 Scroll down, and pick:<br/>
 ![image](https://github.com/user-attachments/assets/729c97ba-a36c-49f5-a1de-1bbc8a4200c3)
 <br/><br/>
+Remember to set the title: `Historic Temperature for: $Parkrun`<br/>
+And add an override:<br/>
+Set the following options:
+- Fields with name: `temperature_2m`
+- Add an override property, pick `Threshold`
+- Remove the red 80 threshold, add a new 0 threshold and set the colour to blue
+- Add another override property, pick `Show thresholds`
+- Change the value to `As lines (dashed)`
+
+![image](https://github.com/user-attachments/assets/ca03988a-245d-4cd8-bb6a-9b9436647ed4)
+<br/><br/>
+By now, your panel show resemble something like this:<br/>
+![image](https://github.com/user-attachments/assets/d542b03c-9ba2-4124-a0b5-53199d5ddeef)
+<br/><br/>
+
 
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
