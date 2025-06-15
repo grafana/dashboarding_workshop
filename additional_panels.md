@@ -84,8 +84,9 @@ Set the following options:
 - Remove the red 80 threshold, add a new 0 threshold and set the colour to blue
 - Add another override property, pick `Show thresholds`
 - Change the value to `As lines (dashed)`
+- Add another override property, pick `Unit` and set to Celsius
 
-![image](https://github.com/user-attachments/assets/ca03988a-245d-4cd8-bb6a-9b9436647ed4)
+![image](https://github.com/user-attachments/assets/b8e1414e-39a0-43a5-97e0-6684ce4c0c69)
 <br/><br/>
 By now, your panel show resemble something like this:<br/>
 ![image](https://github.com/user-attachments/assets/d542b03c-9ba2-4124-a0b5-53199d5ddeef)
