@@ -32,13 +32,16 @@ http://localhost:8080/parks returns a JSON:<br/>
 
 Remember to set a title, eg: `Parkrun Locations`</br>
 ![image](https://github.com/user-attachments/assets/e07fdbd7-a361-4505-8ad6-b5a74767cecb)
-<br/><br/>
+<br/>
 
 Finally, under styles, change the value from `5` to `15`:<br/>
+
 ![image](https://github.com/user-attachments/assets/d3dddc70-dff9-4faa-b07c-84482f8fe26a)
 
-<br/><br/>
+<br/>
 If you zoom in the worldmap a bit, you should be able to see the three locations:<br/>
+
 ![image](https://github.com/user-attachments/assets/dc810c83-9e44-4b38-a6a7-d6dcde73b943)
 
+<br/>
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
