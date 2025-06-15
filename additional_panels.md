@@ -90,7 +90,9 @@ Set the following options:
 By now, your panel show resemble something like this:<br/>
 ![image](https://github.com/user-attachments/assets/d542b03c-9ba2-4124-a0b5-53199d5ddeef)
 <br/><br/>
-
+Remember to save your dashboard, and then go back to the main dashboard:<br/>
+![image](https://github.com/user-attachments/assets/10285e6d-d79b-48a6-bbc7-302fbe488139)
+<br/><br/>
 
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
