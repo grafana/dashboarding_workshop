@@ -35,12 +35,10 @@ Remember to set a title, eg: `Parkrun Locations`</br>
 <br/>
 
 Finally, under styles, change the value from `5` to `15`:<br/>
-
 ![image](https://github.com/user-attachments/assets/d3dddc70-dff9-4faa-b07c-84482f8fe26a)
 
 <br/>
 If you zoom in the worldmap a bit, you should be able to see the three locations:<br/>
-
 ![image](https://github.com/user-attachments/assets/dc810c83-9e44-4b38-a6a7-d6dcde73b943)
 
 <br/>
