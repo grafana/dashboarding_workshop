@@ -45,7 +45,23 @@ If you zoom in the worldmap a bit, you should be able to see the three locations
 
 <br/>
 <hr/>
+
 ### Timeseries Panel
+Again, click to add a new Panel, then select the `Visualization` option:<br/>
+![image](https://github.com/user-attachments/assets/301fd9ec-87f8-48ce-86b7-5370a8e3ba62)
+<br/><br/>
+Pick Infinity again, using the url `http://localhost:8080/weather/$Parkrun` and set `saturday_data` under the Parsing options tab:<br/>
+![image](https://github.com/user-attachments/assets/d928ccfc-1af4-4eae-b6a7-d91d838aa601)
+<br/><br/>
+However this time, add an "Expression" (we will discuss this a little later):<br/>
+![image](https://github.com/user-attachments/assets/d0ec7c52-59cf-4908-8e57-debf4c0e7ccb)
+<br/><br/>
+Under Operation, scroll down and select the `SQL` expression:<br/>
+![image](https://github.com/user-attachments/assets/fb15c7f6-64d3-41f3-a144-cde583995569)
+<br/><br/>
+We need to "hide" the output of query A so that we only look at the output of query B:<br/>
+![image](https://github.com/user-attachments/assets/f299cb21-c3a0-4955-a30a-38e33a7d652d)
+<br/><br/>
 
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
