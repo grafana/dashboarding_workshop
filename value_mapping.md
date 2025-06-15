@@ -52,7 +52,13 @@ Select `Retro LCD` and `Value Color`:<br/>
 ![image](https://github.com/user-attachments/assets/54c79e49-7d04-4161-8351-05df5a66ae31)
 
 <br/><br/>
+Add one more override property, and search for `Column alignment` and make it `Left`:<br/>
+![image](https://github.com/user-attachments/assets/6f2276d2-b341-4d2e-ab37-4a8b8570264f)
+<br/>
+![image](https://github.com/user-attachments/assets/848d0b1a-55b0-4717-806f-b1294eaab6b8)
+
+<br/><br/>
 Once again, look at the panel updating in real time with the new visualisation options:<br/>
-![image](https://github.com/user-attachments/assets/35a9a72b-ebf7-4f98-bc22-723d660be62e)
+![image](https://github.com/user-attachments/assets/cad70f3f-8c08-4c61-9f43-73809d464694)
 
 <br/><br/>
