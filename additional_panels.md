@@ -62,6 +62,20 @@ Under Operation, scroll down and select the `SQL` expression:<br/>
 We need to "hide" the output of query A so that we only look at the output of query B:<br/>
 ![image](https://github.com/user-attachments/assets/f299cb21-c3a0-4955-a30a-38e33a7d652d)
 <br/><br/>
+Add a transformation `Convert field type`, to convert the timestamp column to a `Time` type field:<br/>
+![image](https://github.com/user-attachments/assets/cb819ed7-b5d1-4439-bdd6-67a4cb10e399)
+This should immediately change the panel, and draw a basic timeseries graph:<br/>
+![image](https://github.com/user-attachments/assets/b9494c04-d1c5-436d-a7df-bcf1847c933a)
+<br/><br/>
+If this didn't work, make sure you have the `Time series` visualisation set:<br/>
+![image](https://github.com/user-attachments/assets/1988d678-a758-4ee4-a0bd-56fe4167764a)
+<br/><br/>
+But we want this to look better, so let's look at some suggestions and pick the one with the colour gradient:<br/>
+![image](https://github.com/user-attachments/assets/a6f72f19-145f-42b9-ac7e-d4d433951001)
+<br/>
+Scroll down, and pick:<br/>
+![image](https://github.com/user-attachments/assets/729c97ba-a36c-49f5-a1de-1bbc8a4200c3)
+<br/><br/>
 
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
