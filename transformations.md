@@ -52,7 +52,8 @@ Finally, your panel should now look like:<br/>
 ![image](https://github.com/user-attachments/assets/fe28efc4-0561-4c16-8fd9-8d4ac9176e6d)
 <br/><br/>
 
-
+Go back to the main dashboard, and remember to save as well:<br/>
+![image](https://github.com/user-attachments/assets/c89a27c8-566f-41e9-a630-5d0cbccab1e3)
 
 <br/><br/>
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
