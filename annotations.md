@@ -22,3 +22,44 @@ Notice how how you can hover your mouse over an annotation to get more detail ab
 ![image](https://github.com/user-attachments/assets/3ccfdfcb-0d52-4ed9-ade2-ba0c85251b5f)
 <br/><br/>
 
+### Annotation 3
+So far we have added annotations manually to our panel, but we can also add them dynamically from another source, like a database. So this means that whenever you update your external annotation source, then it will automatically reflect on your panel.<br/>
+<br/>
+Top right, click on Settings:<br/>
+![image](https://github.com/user-attachments/assets/6d13fcb3-0a2d-4952-8d32-a06becc6ca7e)
+Select `Annotations`:<br/>
+![image](https://github.com/user-attachments/assets/4cdc4013-4268-4a03-9173-402fd725b5ef)
+<br/><br/>
+Click on `Add annotation query`:<br/>
+![image](https://github.com/user-attachments/assets/7461c5be-04a1-4b4d-82e7-24bff7294de9)
+<br/><br/>
+On the next page, provide a Name, ensure you have selected the `mysql-parkrun` datasource and change the colour to green or something else:<br/>
+![image](https://github.com/user-attachments/assets/549b5da3-ce0e-4b0b-95cc-fa5c8ab0b7b5)
+<br/><br/>
+In the query section, make sure you have selected the `grafana_annotations` table:<br/>
+![image](https://github.com/user-attachments/assets/30b7373c-ef13-4ddb-905c-691bdc193d51)
+<br/><br/>
+And also pick 4 columns that are needed to display the annotations:<br/>
+- time_epoch_ms -> time
+- time_end_epoch_ms -> timeEnd
+- text
+- tags
+<br/>
+
+![image](https://github.com/user-attachments/assets/e1a429ef-e3a8-4980-bb73-265a954a9f83)
+<br/><br/>
+
+And if you did it correctly, it should automatically show in green successful:<br/>
+![image](https://github.com/user-attachments/assets/53d0ee22-72ef-454d-8d1b-56905bd6b602)
+
+<br/><br/>
+Go back to your dashboard, and remember to save!<br/>
+![image](https://github.com/user-attachments/assets/9334a932-bf0b-4d4d-a663-c77478614571)
+
+<br/><br/>
+And now you will automatically pull in three annotations from the database into your panel:<br/>
+![image](https://github.com/user-attachments/assets/dbd601df-aded-4df0-bc33-dbcb463bb37f)
+<br/><br/>
+
+
+
