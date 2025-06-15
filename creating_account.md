@@ -39,3 +39,6 @@ So that it looks like:
 ![image](https://github.com/user-attachments/assets/32fe9fc1-1d7e-420f-8a3a-1ac696fb7595)
 
 Now only you have access to your own folder and others won't be able to see your work/dashboards today and accidentally make changes 
+
+<br/><br/>
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
