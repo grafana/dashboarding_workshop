@@ -5,3 +5,6 @@ In Grafana, a server-side expression is a way to transform or calculate data aft
 <br/>
 ![image](https://github.com/user-attachments/assets/b164276f-b0a1-4471-88a7-22a948e309c1)
 <br/><br/>
+
+<br/><br/>
+[Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
