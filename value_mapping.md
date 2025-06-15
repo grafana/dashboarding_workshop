@@ -74,9 +74,11 @@ Specifically, you want to set:
 - Background display mode -> Gradient
 <br/>
 As a hint, use the following value mappings:<br/>
+
 ![image](https://github.com/user-attachments/assets/3b476a5c-fb42-4897-ac84-26ccdd10e593)
 <br/><br/>
 And finally, your panel should look like this:<br/>
+
 ![image](https://github.com/user-attachments/assets/8492a261-7bee-453b-8371-32dee787fd7f)
 
 
