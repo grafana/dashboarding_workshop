@@ -32,3 +32,39 @@ Above you configured a link for the whole dashboard that will take you to anothe
 ![image](https://github.com/user-attachments/assets/55656e89-903c-4050-98b2-8d02464b04ac)
 <br/>These are called `Data Links`
 <br/><br/>
+Edit the panel:<br/>
+![image](https://github.com/user-attachments/assets/9263eef0-7dc5-437f-ab7e-39ff45effb69)
+<br/><br/>
+Click to add an override:<br/>
+![image](https://github.com/user-attachments/assets/b262531b-34f1-46e2-b0fb-be0db1fce8d4)
+<br/><br/>
+Scroll to the bottom and add a new override:<br/>
+![image](https://github.com/user-attachments/assets/c287e67d-8f19-47d2-a00d-41b45042c47a)
+<br/><br/>
+And then `Fields with name`:<br/>
+![image](https://github.com/user-attachments/assets/47ecf1f9-aa46-4faf-82ff-f896856329d7)
+<br/><br/>
+Select the `Date` field:<br/>
+![image](https://github.com/user-attachments/assets/17f23752-9656-463f-8591-9daf634ab6b7)
+<br/><br/>
+Search for `link`, then select `Data links`:<br/>
+![image](https://github.com/user-attachments/assets/90eee519-ae2a-4038-b085-94c17ef487e4)
+<br/><br/>
+Finally, `Add link`:<br/>
+![image](https://github.com/user-attachments/assets/40348ced-adfe-4aaf-8cb7-cba3948b8cc6)
+<br/><br/>
+Finally, a popup will appear. 
+- Provide a title
+- Use the URL:
+- Enable the toggle to `Open in a new tab`</br>
+
+![image](https://github.com/user-attachments/assets/c6020555-d1d6-45a7-9533-fb9b4e081444)
+<br/>
+I will explain during the workshop how this URL was constructed. 
+<br/><br/>
+Hit `Save` and then back to dashboard:<br/>
+![image](https://github.com/user-attachments/assets/5872bc65-5598-4e89-b3a7-a891cc72e2c5)
+<br/><br/>
+
+
+
