@@ -10,6 +10,14 @@ In Grafana, a server-side expression is a way to transform or calculate data aft
 In this lab we will add an additional panel that will show us the top participating clubs for that Parkrun:<br/>
 
 ![image](https://github.com/user-attachments/assets/eabb2a02-b454-48a9-8d77-b767574a3979)
+
 <br/><br/>
+Click to add a new Panel, then select the `Visualization` option:<br/>
+![image](https://github.com/user-attachments/assets/301fd9ec-87f8-48ce-86b7-5370a8e3ba62)
+
+<br/><br/>
+Select the `Pie Chart` visualisation:<br/>
+![image](https://github.com/user-attachments/assets/a8199fa0-6adc-4a60-8967-2c02e168d4ae)
+
 
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
