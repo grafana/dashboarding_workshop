@@ -66,5 +66,10 @@ Hit `Save` and then back to dashboard:<br/>
 ![image](https://github.com/user-attachments/assets/5872bc65-5598-4e89-b3a7-a891cc72e2c5)
 <br/><br/>
 
+Pick different park runs and different dates. It should open on the `Parkrun Analytics` Dashboard in a new tab, with your selected variables passed through!<br/>
+![image](https://github.com/user-attachments/assets/b79f6205-3e38-48a9-879e-871ed6d77d75)
+<br/><br/>
+
+## Congratulations, you've made it to the end of the workshop!
 
 
