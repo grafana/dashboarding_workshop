@@ -57,6 +57,53 @@ Your visualisation should update with what appears to be a pie-chart, but our da
 You should see a table with the raw data. What we want to do now is to filter our results so that when you select `bushy` from the dropdown, then it automatically filters the results to only show for event_id 1 (the id that maps to bushy). And so on:<br/>
 ![image](https://github.com/user-attachments/assets/b706e8e4-97e7-4f4e-82c8-2da988856fed)
 <br/><br/>
+We can use our JSON API to get the park run name, as well as the event_id, then map that to our SQL output. 
+<br/><br/>
+Add another query:<br/>
+![image](https://github.com/user-attachments/assets/0b6f5acc-4fb3-438e-bb6b-cdcf53cd2b65)
+<br/><br/>
+This will bring up query `B` as you can see. Use the url:`http://localhost:8080/parks`<br/>
+![image](https://github.com/user-attachments/assets/e2f90c29-eefc-4e11-af5d-e13695392c00)
+<br/><br/>
+The table will still have the same results, but you might have noticed that a dropdown has now appeared:<br/>
+![image](https://github.com/user-attachments/assets/d1f4c451-87c4-4111-8bb7-c77cacc847e3)
+<br/>
+What you are seeing here is that each query in Grafana (query `A` and query `B` in our case) maps to an internal "table" inside Grafana. We can access each table by selecting from the dropdown:<br/>
+![image](https://github.com/user-attachments/assets/767887e5-ef81-4ffc-801b-4469284a5ddc)
+<br/>Here you can see `B` which is the internal reference that maps to the output of query B. 
+<br/><br/>
+If you select `B`, then the table output will update to something like:<br/>
+![image](https://github.com/user-attachments/assets/e9965784-350d-4c69-afc8-b317df23dec9)
+<br/><br/>
+Switch back and forth between these two result sets. Notice something interesting. Something that is common between the two?<br/>
+There is a common shared field called `park_id` between these two result sets. We can use SQL expressions to "join" these two tables together inside Grafana, like as if they were real SQL tables!
+<br/><br/>
+This time, add a new `Expression`:<br/>
+![image](https://github.com/user-attachments/assets/8bed01d3-509b-4910-af83-ebeb1a9dfbae)
+<br/><br/>
+And scroll down to SQL Expressions:<br/>
+![image](https://github.com/user-attachments/assets/916ffd4f-f93d-46b2-8a8f-cf774db6d42e)
+<br/><br/>
+This brings up query `C`. With this, you can now manipluate the output of query `A` and `B` as if they were tables to begin with, using SQL dialect. You can join tables, rename fields, change the order, count, group by and all the things you can do in SQL:<br/>
+![image](https://github.com/user-attachments/assets/63b830e2-6ab0-489b-8059-8edbcee115ed)
+<br/><br/>
+Paste the following SQL in the box:<br/>
+```
+SELECT 
+  A.*
+FROM 
+  A, B
+WHERE 
+  A.park_id = B.park_id
+  AND B.name = "$Parkrun"
+LIMIT 10
+```
+What we are doing here is to combine the two tables where we take the option that was selected in the dropdown in our panel (eg: `bushy`), then joining that table with the results table using the common park_id field. Notice how we use `A` and `B` as our table names. Those are the names of the queries in Grafana earlier.<br/>
+For example:<br/>
+![image](https://github.com/user-attachments/assets/94c71387-22de-4132-9baf-0687198dff0d)
+<br/><br/>
 
 
+
+<br/><br/>
 [Back to Table of Contents](https://github.com/grafana/dashboarding_workshop/blob/main/README.md)
