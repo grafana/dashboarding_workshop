@@ -102,6 +102,46 @@ What we are doing here is to combine the two tables where we take the option tha
 For example:<br/>
 ![image](https://github.com/user-attachments/assets/94c71387-22de-4132-9baf-0687198dff0d)
 <br/><br/>
+The output in the table is becoming a real mess. We need to actually just disable the output from being visualised for query `A` and `B`. <br/>
+For both query `A` and `B`, click on the little eye icon to disable the output:<br/>
+![image](https://github.com/user-attachments/assets/8c55352c-77be-4a74-bd08-5602d3ffc886)
+<br>This will just disable the output, but the query itself will still run internally inside Grafana.
+<br/><br/>
+You table should now rememble a cleaner layout, with just the 3 columns we need. You can switch off the "Table view":<br/>
+![image](https://github.com/user-attachments/assets/51da065a-f3c5-4740-9304-f7ff36c1616b)
+<br/><br/>
+And you should see the Pie chart again, but the chart is still now showing quite the right data:<br/>
+![image](https://github.com/user-attachments/assets/bd31c06b-3d4e-4196-96d9-65a313e4af7d)
+<br/><br/>
+To fix the Pie chart, we need to add a transformation. Pie chart specifically only wants two columns, and right now our output has three columns (park_id, club, club_count).<br/>
+We can add an additional transformation to "remove" the unneeded `park_id` field:<br/>
+![image](https://github.com/user-attachments/assets/3d5b1227-4477-46e1-9197-99803a689286)
+<br/><br/>
+Search for `Organize fields by name`:<br/>
+![image](https://github.com/user-attachments/assets/963a13b1-e7af-489a-96b3-fcc7a2ede129)
+<br/><br/>
+And then clikc on the little icon to disable the `park_id` field, like so:<br/>
+![image](https://github.com/user-attachments/assets/20ea6f37-d545-42eb-aba3-ff6701cd00e6)
+<br/><br/>
+And if you quickly toggle "Table View" on again, you will see that we now have only the two columns. Neat!<br/>
+![image](https://github.com/user-attachments/assets/124b6c12-ddd6-4b42-b1c5-eec7f6be3861)
+<br/><br/>
+Yet, still the pie chart is showing just a single colour, why ?<br/>
+![image](https://github.com/user-attachments/assets/7319fd4c-ba77-4977-be0d-ecbe656da902)
+<br/><br/>
+A few small changes and then we're there. Edit the pie chart properties, and select `All values`:<br/>
+![image](https://github.com/user-attachments/assets/4eecc1e5-7635-45d3-9a26-8c2b4c32d787)
+<br/>and set the labels to `Name` and `Value`:<br/>
+![image](https://github.com/user-attachments/assets/e2603b91-80a0-4c6b-8eea-43673ecc319d)
+<br/><br/>
+One final change, set your Legend mode to `Table`, `Right` placement, and Legend Values to `Value`:<br/>
+![image](https://github.com/user-attachments/assets/ced5da17-fa78-4773-b439-32855a24360a)
+<br/><br/>
+You've done it, impressive!<br/>
+![image](https://github.com/user-attachments/assets/378d3f0d-24fc-41ef-bd84-833b2d00934e)
+<br/><br/>
+Remember to set a panel title too!<br/>
+![image](https://github.com/user-attachments/assets/582f4478-ea94-41fd-ae82-1c14f4dbe147)
 
 
 
