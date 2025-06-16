@@ -55,7 +55,7 @@ Finally, `Add link`:<br/>
 <br/><br/>
 Finally, a popup will appear. 
 - Provide a title
-- Use the URL:
+- Use the URL: `https://grafanaday.taila86a5.ts.net/d/100fddb0-c315-4434-b176-147435dd6134/parkun-analytics?orgId=1&from=now-6M&to=now&timezone=browser&${Parkrun:queryparam}&var-ParkrunDate=${__value.text}`
 - Enable the toggle to `Open in a new tab`</br>
 
 ![image](https://github.com/user-attachments/assets/c6020555-d1d6-45a7-9533-fb9b4e081444)
