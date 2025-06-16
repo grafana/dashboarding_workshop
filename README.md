@@ -8,3 +8,4 @@
 - [Building Additional Panels](https://github.com/grafana/dashboarding_workshop/blob/main/additional_panels.md)
 - [Annotations](https://github.com/grafana/dashboarding_workshop/blob/main/annotations.md)
 - [SQL Expressions](https://github.com/grafana/dashboarding_workshop/blob/main/sql_expressions.md)
+- [Data Links](https://github.com/grafana/dashboarding_workshop/blob/main/data_links.md)
