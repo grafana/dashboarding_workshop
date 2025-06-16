@@ -14,6 +14,7 @@ Then click on `Links`:<br/>
 - Change the type to "Link"<br/>
 - And set the URL to: `https://grafanaday.taila86a5.ts.net/d/100fddb0-c315-4434-b176-147435dd6134/parkun-analytics?orgId=1&from=now-6h&to=now&timezone=browser`<br/>
 - Also tick the options for `Include current template variable values` and `Open in new tab`<br/>
+
 ![image](https://github.com/user-attachments/assets/b446ab46-db86-404a-b30c-1941f519fe0c)
 <br/><br/>
 Now when you go back to your dashboard:<br/>
@@ -24,4 +25,10 @@ You will see a new sort of button/menu option appear:<br/>
 
 <br/><br/>
 Click it and see what happens!
+<br/><br/>
+
+### Configuring a Data Link
+Above you configured a link for the whole dashboard that will take you to another location. But it is also possible to make individual things on a panel into the own clickable links. For example, each of these links can go to their own URL:<br/>
+![image](https://github.com/user-attachments/assets/55656e89-903c-4050-98b2-8d02464b04ac)
+<br/>These are called `Data Links`
 <br/><br/>
