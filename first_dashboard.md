@@ -1,5 +1,5 @@
 # Creating our first dashboard
-We will use the current data in Explore mode, and convert that into a dashboard that we can further iterate and build on. 
+We will use the current data in the Explore mode (the "saturday_data" from the Infinity datasource), and convert that into a dashboard that we can further iterate and build on. 
 <br/><br/>
 On the top of the page, click on `Add` and then `Add to dashboard`:<br/>
 ![image](https://github.com/user-attachments/assets/a9001df4-ac0e-4735-bcd2-b55270171e09)
