@@ -56,6 +56,8 @@ Once again, look at the panel updating in real time with the new visualisation o
 Now, add a new `Field override` (not override property):<br/>
 ![image](https://github.com/user-attachments/assets/7c8e8605-c78a-43a5-b819-a40108767bf4)
 <br/><br/>
+Select "Fields with name"
+<br/><br/>
 Pick `Wind Speed`:<br/>
 ![image](https://github.com/user-attachments/assets/7b23a26e-29ef-40ff-9375-49c9b4863e53)
 <br/><br/>
