@@ -69,7 +69,7 @@ Search for the property `Unit` and search for `km/h`:<br/>
 Again, add another field override:<br/>
 ![image](https://github.com/user-attachments/assets/7c8e8605-c78a-43a5-b819-a40108767bf4)
 <br/>
-This time, search for Rain and set the following overrides:<br/>
+This time, search for Rain and set the following overrides, again remember to remove the Value condition and add ranges :<br/>
 ![image](https://github.com/user-attachments/assets/a50011c0-8e22-4fb7-bd0c-9c49322e1473)
 <br/>
 Specifically, you want to set:
