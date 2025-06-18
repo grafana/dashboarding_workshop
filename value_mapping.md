@@ -23,6 +23,8 @@ Select the `Temperature` field, and then on `Add override property`:<br/>
 You want to pick the `Value mappings` property to override:<br/>
 ![image](https://github.com/user-attachments/assets/f4366e3b-4d46-4a4e-a8dd-15b66cb8cfd9)
 <br/><br/>
+Expand the Value mappings by pressing the arrow to the right of "Value mappings X ↓" 
+<br/><br/>
 Add the following "Range" mapping (and remember to remove the default mapping that exists initially):<br/>
 ![image](https://github.com/user-attachments/assets/1844e291-04eb-4db4-a9ce-b398bfcd66ac)
 <br/><br/>
