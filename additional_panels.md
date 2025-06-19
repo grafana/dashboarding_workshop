@@ -50,7 +50,9 @@ If you zoom in the worldmap a bit, you should be able to see the three locations
 Again, click to add a new Panel, then select the `Visualization` option:<br/>
 ![image](https://github.com/user-attachments/assets/301fd9ec-87f8-48ce-86b7-5370a8e3ba62)
 <br/><br/>
-Pick Infinity again, using the url `http://localhost:8080/weather/$Parkrun` and set `saturday_data` under the Parsing options tab:<br/>
+You may want to change the type of the Visualization to be "Table", so you can see the data we're working with.
+<br/><br/>
+Pick Infinity as the datasource again, using the url `http://localhost:8080/weather/$Parkrun` and set `saturday_data` under the Parsing options tab:<br/>
 ![image](https://github.com/user-attachments/assets/d928ccfc-1af4-4eae-b6a7-d91d838aa601)
 <br/><br/>
 However this time, add an "Expression" (we will discuss this a little later):<br/>
@@ -62,7 +64,7 @@ Under Operation, scroll down and select the `SQL` expression:<br/>
 We need to "hide" the output of query A so that we only look at the output of query B:<br/>
 ![image](https://github.com/user-attachments/assets/f299cb21-c3a0-4955-a30a-38e33a7d652d)
 <br/><br/>
-Add a transformation `Convert field type`, to convert the timestamp column to a `Time` type field:<br/>
+Add a transformation `Convert field type`, to convert the "event_date" column to a `Time` type field:<br/>
 ![image](https://github.com/user-attachments/assets/cb819ed7-b5d1-4439-bdd6-67a4cb10e399)
 This should immediately change the panel, and draw a basic timeseries graph:<br/>
 ![image](https://github.com/user-attachments/assets/b9494c04-d1c5-436d-a7df-bcf1847c933a)
