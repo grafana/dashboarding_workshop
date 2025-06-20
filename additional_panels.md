@@ -71,7 +71,7 @@ FROM A
 ```
 For example:<br/>
 ![image](https://github.com/user-attachments/assets/97693489-d347-4fbf-9ca7-478f769960bb)
-<br/>br/>
+<br/><br/>
 Add a transformation `Convert field type`, to convert the timestamp column to a `Time` type field:<br/>
 ![image](https://github.com/user-attachments/assets/cb819ed7-b5d1-4439-bdd6-67a4cb10e399)
 This should immediately change the panel, and draw a basic timeseries graph:<br/>
