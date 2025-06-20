@@ -107,7 +107,7 @@ For both query `A` and `B`, click on the little eye icon to disable the output:<
 ![image](https://github.com/user-attachments/assets/8c55352c-77be-4a74-bd08-5602d3ffc886)
 <br>This will just disable the output, but the query itself will still run internally inside Grafana.
 <br/><br/>
-You table should now rememble a cleaner layout, with just the 3 columns we need. You can switch off the "Table view":<br/>
+You table should now resemble a cleaner layout, with just the 3 columns we need. You can switch off the "Table view":<br/>
 ![image](https://github.com/user-attachments/assets/51da065a-f3c5-4740-9304-f7ff36c1616b)
 <br/><br/>
 And you should see the Pie chart again, but the chart is still now showing quite the right data:<br/>
