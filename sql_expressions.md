@@ -110,7 +110,7 @@ For both query `A` and `B`, click on the little eye icon to disable the output:<
 You table should now resemble a cleaner layout, with just the 3 columns we need. You can switch off the "Table view":<br/>
 ![image](https://github.com/user-attachments/assets/51da065a-f3c5-4740-9304-f7ff36c1616b)
 <br/><br/>
-And you should see the Pie chart again, but the chart is still now showing quite the right data:<br/>
+And you should see the Pie chart again, but the chart is still not showing quite the right data:<br/>
 ![image](https://github.com/user-attachments/assets/bd31c06b-3d4e-4196-96d9-65a313e4af7d)
 <br/><br/>
 To fix the Pie chart, we need to add a transformation. Pie chart specifically only wants two columns, and right now our output has three columns (park_id, club, club_count).<br/>
