@@ -120,7 +120,7 @@ We can add an additional transformation to "remove" the unneeded `park_id` field
 Search for `Organize fields by name`:<br/>
 ![image](https://github.com/user-attachments/assets/963a13b1-e7af-489a-96b3-fcc7a2ede129)
 <br/><br/>
-And then clikc on the little icon to disable the `park_id` field, like so:<br/>
+And then click on the little icon to disable the `park_id` field, like so:<br/>
 ![image](https://github.com/user-attachments/assets/20ea6f37-d545-42eb-aba3-ff6701cd00e6)
 <br/><br/>
 And if you quickly toggle "Table View" on again, you will see that we now have only the two columns. Neat!<br/>
