@@ -50,7 +50,7 @@ If you zoom in the worldmap a bit, you should be able to see the three locations
 Again, click to add a new Panel, then select the `Visualization` option:<br/>
 ![image](https://github.com/user-attachments/assets/301fd9ec-87f8-48ce-86b7-5370a8e3ba62)
 <br/><br/>
-You may want to change the type of the Visualization to be "Table", so you can see the data we're working with.
+You may want to toggle the "Table view", so you can see the data we're working with.
 <br/><br/>
 Pick Infinity as the datasource again, using the url `http://localhost:8080/weather/$Parkrun` and set `saturday_data` under the Parsing options tab:<br/>
 ![image](https://github.com/user-attachments/assets/d928ccfc-1af4-4eae-b6a7-d91d838aa601)
