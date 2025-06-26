@@ -50,7 +50,9 @@ If you zoom in the worldmap a bit, you should be able to see the three locations
 Again, click to add a new Panel, then select the `Visualization` option:<br/>
 ![image](https://github.com/user-attachments/assets/301fd9ec-87f8-48ce-86b7-5370a8e3ba62)
 <br/><br/>
-Pick Infinity again, using the url `http://localhost:8080/weather/$Parkrun` and set `saturday_data` under the Parsing options tab:<br/>
+You may want to toggle the "Table view", so you can see the data we're working with.
+<br/><br/>
+Pick Infinity as the datasource again, using the url `http://localhost:8080/weather/$Parkrun` and set `saturday_data` under the Parsing options tab:<br/>
 ![image](https://github.com/user-attachments/assets/d928ccfc-1af4-4eae-b6a7-d91d838aa601)
 <br/><br/>
 However this time, add an "Expression" (we will discuss this a little later):<br/>
@@ -72,7 +74,7 @@ FROM A
 For example:<br/>
 ![image](https://github.com/user-attachments/assets/97693489-d347-4fbf-9ca7-478f769960bb)
 <br/><br/>
-Add a transformation `Convert field type`, to convert the timestamp column to a `Time` type field:<br/>
+Add a transformation `Convert field type`, to convert the time column to a `Time` type field:<br/>
 ![image](https://github.com/user-attachments/assets/cb819ed7-b5d1-4439-bdd6-67a4cb10e399)
 This should immediately change the panel, and draw a basic timeseries graph:<br/>
 ![image](https://github.com/user-attachments/assets/b9494c04-d1c5-436d-a7df-bcf1847c933a)

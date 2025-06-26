@@ -23,6 +23,8 @@ Select the `Temperature` field, and then on `Add override property`:<br/>
 You want to pick the `Value mappings` property to override:<br/>
 ![image](https://github.com/user-attachments/assets/f4366e3b-4d46-4a4e-a8dd-15b66cb8cfd9)
 <br/><br/>
+Expand the Value mappings by pressing the arrow to the right of "Value mappings X ↓" 
+<br/><br/>
 Add the following "Range" mapping (and remember to remove the default mapping that exists initially):<br/>
 ![image](https://github.com/user-attachments/assets/1844e291-04eb-4db4-a9ce-b398bfcd66ac)
 <br/><br/>
@@ -54,6 +56,8 @@ Once again, look at the panel updating in real time with the new visualisation o
 Now, add a new `Field override` (not override property):<br/>
 ![image](https://github.com/user-attachments/assets/7c8e8605-c78a-43a5-b819-a40108767bf4)
 <br/><br/>
+Select "Fields with name"
+<br/><br/>
 Pick `Wind Speed`:<br/>
 ![image](https://github.com/user-attachments/assets/7b23a26e-29ef-40ff-9375-49c9b4863e53)
 <br/><br/>
@@ -65,7 +69,7 @@ Search for the property `Unit` and search for `km/h`:<br/>
 Again, add another field override:<br/>
 ![image](https://github.com/user-attachments/assets/7c8e8605-c78a-43a5-b819-a40108767bf4)
 <br/>
-This time, search for Rain and set the following overrides:<br/>
+This time, search for Rain and set the following overrides, again remember to remove the Value condition and add ranges :<br/>
 ![image](https://github.com/user-attachments/assets/a50011c0-8e22-4fb7-bd0c-9c49322e1473)
 <br/>
 Specifically, you want to set:
