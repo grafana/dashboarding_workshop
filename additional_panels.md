@@ -64,7 +64,17 @@ Under Operation, scroll down and select the `SQL` expression:<br/>
 We need to "hide" the output of query A so that we only look at the output of query B:<br/>
 ![image](https://github.com/user-attachments/assets/f299cb21-c3a0-4955-a30a-38e33a7d652d)
 <br/><br/>
-Add a transformation `Convert field type`, to convert the "time" column to a `Time` type field:<br/>
+Then change the SQL query to:<br/><br/>
+```
+SELECT
+ UNIX_TIMESTAMP(CONCAT(event_date, ' 09:00:00')) * 1000 AS time,
+ temperature_2m
+FROM A
+```
+For example:<br/>
+![image](https://github.com/user-attachments/assets/97693489-d347-4fbf-9ca7-478f769960bb)
+<br/><br/>
+Add a transformation `Convert field type`, to convert the time column to a `Time` type field:<br/>
 ![image](https://github.com/user-attachments/assets/cb819ed7-b5d1-4439-bdd6-67a4cb10e399)
 This should immediately change the panel, and draw a basic timeseries graph:<br/>
 ![image](https://github.com/user-attachments/assets/b9494c04-d1c5-436d-a7df-bcf1847c933a)

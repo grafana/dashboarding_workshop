@@ -107,10 +107,10 @@ For both query `A` and `B`, click on the little eye icon to disable the output:<
 ![image](https://github.com/user-attachments/assets/8c55352c-77be-4a74-bd08-5602d3ffc886)
 <br>This will just disable the output, but the query itself will still run internally inside Grafana.
 <br/><br/>
-You table should now rememble a cleaner layout, with just the 3 columns we need. You can switch off the "Table view":<br/>
+You table should now resemble a cleaner layout, with just the 3 columns we need. You can switch off the "Table view":<br/>
 ![image](https://github.com/user-attachments/assets/51da065a-f3c5-4740-9304-f7ff36c1616b)
 <br/><br/>
-And you should see the Pie chart again, but the chart is still now showing quite the right data:<br/>
+And you should see the Pie chart again, but the chart is still not showing quite the right data:<br/>
 ![image](https://github.com/user-attachments/assets/bd31c06b-3d4e-4196-96d9-65a313e4af7d)
 <br/><br/>
 To fix the Pie chart, we need to add a transformation. Pie chart specifically only wants two columns, and right now our output has three columns (park_id, club, club_count).<br/>
@@ -120,7 +120,7 @@ We can add an additional transformation to "remove" the unneeded `park_id` field
 Search for `Organize fields by name`:<br/>
 ![image](https://github.com/user-attachments/assets/963a13b1-e7af-489a-96b3-fcc7a2ede129)
 <br/><br/>
-And then clikc on the little icon to disable the `park_id` field, like so:<br/>
+And then click on the little icon to disable the `park_id` field, like so:<br/>
 ![image](https://github.com/user-attachments/assets/20ea6f37-d545-42eb-aba3-ff6701cd00e6)
 <br/><br/>
 And if you quickly toggle "Table View" on again, you will see that we now have only the two columns. Neat!<br/>
